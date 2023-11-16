@@ -29,8 +29,9 @@ ul.navlinks li:hover ul{
     display:block;
 }
 .image{
-    height:70%;
+    height:80%;
     width:100%;
+    object-fit: cover;
 }
 .carousel-caption h5{
     font-size: 2rem;
@@ -42,7 +43,7 @@ ul.navlinks li:hover ul{
 .image1{
     height:80%;
     width:75%;
-    margin:2rem;
+    margin:1rem;
     border-radius: 1.5rem;
 }
 .service {
@@ -86,4 +87,7 @@ ul.navlinks li:hover ul{
     color: rgb(251, 92, 0);
     font-size: 4.5rem;
     margin-bottom:2rem;
+}
+.faq{
+    font-size:1.3rem;
 }
