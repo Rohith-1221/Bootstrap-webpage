@@ -2,12 +2,11 @@ body{
     font-family:Comfortaa;
 }
 .workarea{
-    display: flex;
+    display:flex;
     justify-content:space-between;
     align-items: center;
 }
 .logo{
-    margin-right:25rem;
     font-family: 'Times New Roman', Times, serif;
     font-size:2rem;
 }
@@ -15,7 +14,7 @@ body{
     position:relative;
 }
 .navlinks li a{
-    color:#fff;
+    color:#000000;
 }
 .navlinks li a:hover{
     color:rgb(55, 255, 0);
@@ -67,9 +66,13 @@ ul.navlinks li:hover ul{
     color:#ffffff;
     text-align: center;
     font-size: 1.5rem;
+    /* display:inline-block; */
 }
 .aboutus{
     background:url(https://www.syberry.com/video/video-intro-poster.6ce01742.jpg);
+}
+.aboutus h2{
+    padding-top:1rem;
 }
 .about .fa-solid,.fa-regular{
     color: #40ff00;
@@ -99,4 +102,66 @@ ul.navlinks li:hover ul{
 }
 .team{
     background:url(https://t3.ftcdn.net/jpg/02/98/90/74/360_F_298907406_MPWwwLXkNGDQjbX69PpYuE1i2EZntqs6.jpg);
+}
+.foot {
+    color: #fff;
+    background: #000;
+}
+.contact ul li{
+    list-style: none;
+    padding:0.5rem;
+}
+.contact ul li a{
+    font-size:2rem;
+    color:#c88ed9;
+}
+.contact{
+    margin:1em;
+}
+.links{
+    margin:1rem;
+}
+.links ul li{
+    list-style:square;
+    padding:0.4rem;
+}
+.links ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+.links ul li a:hover{
+    color:#7cac5e;
+}
+.nletter{
+    margin:1rem;
+}
+.cright{
+    padding:0.5rem; 
+    font-size:1.5rem;
+}
+@media (max-width:768px){
+    .logo{
+        /* margin-right:20rem; */
+        font-size:1.6rem;
+    }
+    .carousel-caption h5{
+        font-size: 1.6rem;
+    }
+    .carousel-caption p{
+        font-size: 1.2rem;
+    }
+
+}
+@media (max-width:425px){
+    .logo{
+        /* margin-right:18rem; */
+        font-size:1.3rem;
+    }
+    .carousel-caption h5{
+        font-size: 1.2rem;
+    }
+    .carousel-caption p{
+        font-size: 0.8rem;
+    }
+
 }
