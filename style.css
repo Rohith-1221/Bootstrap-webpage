@@ -29,7 +29,7 @@ ul.navlinks li:hover ul{
     display:block;
 }
 .image{
-    height:80%;
+    height:60%;
     width:100%;
     object-fit: cover;
 }
@@ -47,8 +47,8 @@ ul.navlinks li:hover ul{
     border-radius: 1.5rem;
 }
 .service {
-    padding-top: 7rem;
-    padding-bottom: 7rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 .service h2.service-head {
     color: #000;
@@ -70,10 +70,9 @@ ul.navlinks li:hover ul{
 }
 .aboutus{
     background:url(https://www.syberry.com/video/video-intro-poster.6ce01742.jpg);
-    padding:1rem;
 }
 .about .fa-solid,.fa-regular{
-    color: #ffffff;
+    color: #40ff00;
     font-size: 3rem;
     margin-bottom:0.5rem;
 }
@@ -85,7 +84,7 @@ ul.navlinks li:hover ul{
 }
 .box .fa-solid {
     color: rgb(251, 92, 0);
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     margin-bottom:2rem;
 }
 .faq{
@@ -95,6 +94,9 @@ ul.navlinks li:hover ul{
     border-radius: 1rem;
     height:60%;
     width:60%;
-    margin-left:3rem;
-    margin-top:1rem
+    margin-left:3.5rem;
+    margin-top:1rem;
+}
+.team{
+    background:url(https://t3.ftcdn.net/jpg/02/98/90/74/360_F_298907406_MPWwwLXkNGDQjbX69PpYuE1i2EZntqs6.jpg);
 }
