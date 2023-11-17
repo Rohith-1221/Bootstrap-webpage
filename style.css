@@ -91,3 +91,10 @@ ul.navlinks li:hover ul{
 .faq{
     font-size:1.3rem;
 }
+.cimage{
+    border-radius: 1rem;
+    height:60%;
+    width:60%;
+    margin-left:3rem;
+    margin-top:1rem
+}
