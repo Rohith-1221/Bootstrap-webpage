@@ -49,14 +49,15 @@ ul.navlinks li:hover ul{
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
-.service h2.service-head {
+.service-head {
+    font-size: 2rem;
     color: #000;
     text-align: center;
     margin-bottom:2rem;
 }
 .servicetext{
     color:#000;
-    font-size:1.3rem;
+    font-size:1.5rem;
     text-align:center;
 }
 .about {
@@ -65,8 +66,7 @@ ul.navlinks li:hover ul{
 .about p{
     color:#ffffff;
     text-align: center;
-    font-size: 1.5rem;
-    /* display:inline-block; */
+    font-size: 1.4rem;
 }
 .aboutus{
     background:url(https://www.syberry.com/video/video-intro-poster.6ce01742.jpg);
@@ -102,6 +102,12 @@ ul.navlinks li:hover ul{
 }
 .team{
     background:url(https://t3.ftcdn.net/jpg/02/98/90/74/360_F_298907406_MPWwwLXkNGDQjbX69PpYuE1i2EZntqs6.jpg);
+}
+.rate{
+    height:1.5rem;
+}
+.name{
+    font-size:1.5rem;
 }
 .foot {
     color: #fff;
@@ -141,7 +147,6 @@ ul.navlinks li:hover ul{
 }
 @media (max-width:768px){
     .logo{
-        /* margin-right:20rem; */
         font-size:1.6rem;
     }
     .carousel-caption h5{
@@ -150,11 +155,49 @@ ul.navlinks li:hover ul{
     .carousel-caption p{
         font-size: 1.2rem;
     }
-
+    .service-head {
+        font-size: 1.6rem;
+    }
+    .servicetext{
+        font-size:1.2rem;
+    }
+    .about p{
+        font-size: 1rem;
+    }
+    .about .fa-solid,.fa-regular{
+        font-size: 2.5rem;
+    }
+    .box p{
+        font-size: 0.8rem;
+    }
+    .box .fa-solid {
+        font-size: 3rem;
+    }
+    .faq{
+        font-size:1rem;
+    }
+    .rate{
+        height:1.3rem;
+    }
+    .name{
+        font-size:1.3rem;
+    }
+    .contact ul li a{
+        font-size:1.7rem;
+    }
+    .contact{
+        font-size:1rem;
+    }
+    .cright{
+        font-size:1.3rem;
+    }
+    .cimage{
+        margin-left:2rem;
+        margin-top:1rem;
+    }
 }
 @media (max-width:425px){
     .logo{
-        /* margin-right:18rem; */
         font-size:1.3rem;
     }
     .carousel-caption h5{
@@ -163,5 +206,37 @@ ul.navlinks li:hover ul{
     .carousel-caption p{
         font-size: 0.8rem;
     }
-
+    .service-head {
+        font-size: 1.4rem;
+    }
+    .servicetext{
+        font-size:1rem;
+    }
+    .about p{
+        font-size: 0.8rem;
+    }
+    .about .fa-solid,.fa-regular{
+        font-size: 2rem;
+    }
+    .box p{
+        font-size: 0.8rem;
+    }
+    .box .fa-solid {
+        font-size: 3rem;
+    }
+    .faq{
+        font-size:1rem;
+    }
+    .rate{
+        height:1.1rem;
+    }
+    .name{
+        font-size:1.1rem;
+    }
+    .contact ul li a{
+        font-size:1.4rem;
+    }
+    .cright{
+        font-size:1rem;
+    }
 }
