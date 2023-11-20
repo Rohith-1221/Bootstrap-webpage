@@ -28,9 +28,12 @@ ul.navlinks li:hover ul{
     display:block;
 }
 .image{
-    height:60%;
-    width:100%;
-    object-fit: cover;
+   height:500px;
+   object-fit:cover;
+   position:static;
+}
+.carousel-caption{
+    justify-content: center;
 }
 .carousel-caption h5{
     font-size: 2rem;
@@ -124,8 +127,17 @@ ul.navlinks li:hover ul{
 .contact{
     margin:1em;
 }
+.contact {
+    font-size:1.1rem;
+}
+.links {
+    font-size:1.1rem;
+}
+.nletter p{
+    font-size:1.1rem;
+}
 .links{
-    margin:1rem;
+    margin:0.8rem;
 }
 .links ul li{
     list-style:square;
@@ -185,8 +197,8 @@ ul.navlinks li:hover ul{
     .contact ul li a{
         font-size:1.7rem;
     }
-    .contact{
-        font-size:1rem;
+    .contact {
+        font-size:0.9rem;
     }
     .cright{
         font-size:1.3rem;
@@ -194,6 +206,12 @@ ul.navlinks li:hover ul{
     .cimage{
         margin-left:2rem;
         margin-top:1rem;
+    }
+    .links {
+        font-size:0.9rem;
+    }
+    .nletter p{
+        font-size:0.9rem;
     }
 }
 @media (max-width:425px){
@@ -238,5 +256,14 @@ ul.navlinks li:hover ul{
     }
     .cright{
         font-size:1rem;
+    }
+    .contact {
+        font-size:0.7rem;
+    }
+    .links {
+        font-size:0.7rem;
+    }
+    .nletter p{
+        font-size:0.7rem;
     }
 }
