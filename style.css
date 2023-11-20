@@ -17,15 +17,7 @@ body{
     color:#000000;
 }
 .navlinks li a:hover{
-    color:rgb(55, 255, 0);
-}
-ul.navlinks ul{
-    display:none;
-    position:absolute;
-    list-style:none;
-}
-ul.navlinks li:hover ul{
-    display:block;
+    color:#f00;
 }
 .image{
    height:500px;
